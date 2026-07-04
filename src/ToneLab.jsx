@@ -653,6 +653,27 @@ export default function ToneLab() {
           Download saves a .wav file. On Android, copy it into the Ringtones or<br />
           Notifications folder. On iPhone, import it into GarageBand to set as a ringtone.
         </p>
+
+        <div className="flex justify-center gap-4 mt-3">
+          <a
+            href="https://www.ideatoimpact.co.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[13px]"
+            style={{ color: COLORS.textMuted, textDecoration: "none" }}
+          >
+            ← Idea to Impact
+          </a>
+          <a
+            href="https://buymeacoffee.com/zimmo121"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[13px]"
+            style={{ color: COLORS.textMuted, textDecoration: "none" }}
+          >
+            ☕ Buy me a coffee
+          </a>
+        </div>
       </div>
     </div>
   );
